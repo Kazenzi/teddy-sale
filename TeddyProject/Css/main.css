@@ -1,0 +1,128 @@
+/*styles for section-a*/
+#section-a .row{
+
+    margin-top: 20px;
+}
+#section-a .card{
+    background-color: hotpink;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.7em;
+}
+#section-a .card:hover{
+    box-shadow: 3px 3px 3px 3px darkgrey;
+
+}
+#section-a .card img{
+    width: 100%;
+    height: 200px;
+}
+#section-a .card img:hover{
+    opacity: 0.3;
+}
+/*styles for dl*/
+dl{
+    text-align: center;
+    text-decoration: #007bff;
+}
+/*styles for footer*/
+footer {
+    background-image: url("../images/m30.jpeg");
+    background-size: cover;
+    background-color: lavender;
+    text-align: center;
+    background-position: center;
+    height: 20rem;
+    padding-top: 100px;
+    opacity: 10%;
+}
+/*styling the delivery  form*/
+.auth-signup{
+
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px saddlebrown;
+}
+.auth-signup img{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.auth-signup .content-title{
+    text-align: center;
+    font-family: Arial;
+}
+.auth-signup hr{
+    padding: 2px;
+    margin: 0;
+}
+.btn-info{
+    color: saddlebrown;
+}
+/*styling section-b*/
+#section-b .row{
+
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#section-b .card{
+    background-color: palevioletred;
+    font-weight: bold;
+    font-family:"Abyssinica SIL";
+    font-size: 0.7em;
+
+}
+#section-b .card:hover{
+    box-shadow: 3px 3px 3px 3px pink;
+
+}
+#section-b .card img{
+    width: 200px;
+    height: 200px;
+}
+#section-b .card img:hover{
+    opacity: 0.3;
+}
+
+/*styling section-c*/
+
+#section-c .row{
+
+    margin-top: 20px;
+}
+#section-c .card{
+    background-color: palevioletred;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.7em;
+}
+#section-c .card:hover{
+    box-shadow: 3px 3px 3px 3px pink;
+
+}
+#section-c .card img{
+    width: 100%;
+    height: 200px;
+}
+#section-c .card img:hover{
+    opacity: 0.3;
+}
+/*styling jumbotron*/
+.jumbotron {
+    background-image: url("../images/l1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.jumbotron h1{
+    text-align: center;
+    text-decoration: #e83e8c;
+}
+Span{
+    color: deeppink;
+}
